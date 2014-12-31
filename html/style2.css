@@ -1,0 +1,115 @@
+@charset "UTF-8";
+html{ font-family: "Microsoft Yahei"; color: #7f7e7f; font-size: 14px;}
+* html{
+background-image:url(about:blank);
+background-attachment:fixed;
+} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+:focus { 
+    outline: 0; 
+} 
+a { background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent; color: #000; }
+a:active { outline: 0; }
+a:active { color: #f8b62b; }
+a:hover {text-decoration: none; color: #f8b62b; }
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+fieldset,img {
+	border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-weight: normal;
+	font-style: normal;
+}
+ol,ul {
+	list-style: none;
+}
+caption,th {
+	text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { 
+	border: 0;
+}
+img{max-width: 100%;width: 100%;height: auto;}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix {zoom:1;}
+.container{ width: 920px; margin: 0 auto;}
+.header{  position: fixed;_position:absolute; top: 0;_top: expression(eval(document.documentElement.scrollTop)); left: 0; z-index: 100; ;zoom:1; background: url(images/head-bg.png) left top repeat-x; _background:white; width: 100%;} 
+.head-inner{ padding: 18px 0 10px;}
+.logo{ width: 222px; float: left;}
+.logo a{ display: block; width: 100%; float: left;}
+.logo img{ width: 234px;height: auto; float: left;}
+.nav-box{ float: right; width: 690px; _width: 680px;}
+.nav{ float: right; margin-top: 8px;_position: relative; _z-index: 2;}
+.nav li{ display: inline-block; float:left; margin-left: 50px; _margin-left: 50px; *width:84px; text-align: center; line-height: 0;}
+.nav li a { display: inline-block;  *float:right;  font-size: 18px; line-height: 26px;}
+.nav li a span{ display: inline-block; width: 100%; *display:inline; font-size: 14px;}
+.banner{margin-bottom: 50px;}
+.banner img{ max-width: 1600px;width: 100%;height: auto; margin: 0 auto; display: block;}
+
+.blank-container{ height: 1px;width: 1px; z-index: 10; left: 0; position: absolute; top: -148px;}
+.about-us .blank-container{ top: -140px;}
+.about-us,
+.project,
+.brand{ position: relative; padding-bottom: 50px; margin-bottom: 56px; border-bottom: 1px solid #7d7d7d; zoom:1;}
+.about-left{ float: left; width: 260px;}
+.about-right{ float: right; width: 632px;}
+
+.about-left h2,
+.project h2,
+.footer h2,
+.brand h2{ font: normal 22px/30px SimHei; color: #595757; margin-bottom: 30px;}
+.project h2{ margin-bottom: 0;}
+.about-left h2{margin-bottom: 15px;}
+.about-left h2 em,
+.project h2 em,
+.footer h2 em,
+.brand h2 em{ font-style: normal; font-family: Arial; color: #f8b62b;}
+.about-left h3{ font: 17px/62px "Microsoft Yahei"; border:1px solid #7d7d7d; border-width: 1px 0; margin-bottom: 20px;}
+.about-left p{line-height: 26px; font-size: 13px; margin-bottom: 10px;}
+.about-left p em{line-height: 28px; color: #f8b62b;}
+.footer{ margin-bottom: 200px;}
+.footer-left{ width: 527px; float: left;}
+.footer-right{ width: 273px; float: right;}
+.footer h2{ margin-bottom: 20px;}
+
+.form-box{padding-top: 6px;}
+.form-box .form-group{ _height: 28px; background: #fcdfa2; margin-bottom: 12px; display: block; clear: both; overflow: hidden;}
+
+.form-box .form-group label{  height: 20px; width: 46px; padding: 4px 0;_float:left; display: inline-block; _display: block; float: left; text-align: center; font-size: 14px;}
+.form-box .form-group input,
+.form-box .form-group textarea{font-family: "Microsoft Yahei"; box-shadow: none; _float:left; background: #fcdfa2; border: none; color: #767573; width: 469px;  height: 20px; line-height: 20px; padding: 4px; font-size: 14px;}
+.form-box .form-group textarea{ height: 140px; line-height: 24px; padding: 4px;}
+.form-box .form-group .label-textarea{ vertical-align: top; line-height: 24px;}
+.form-box .form-send { padding: 0; background: white; text-align: right;}
+.form-box .form-send input{font-family: "Microsoft Yahei"; _float: right;  padding: 0; width: 82px; height: 26px; line-height: 26px; color: white; background: #aeaeae; font-size: 14px; cursor: pointer; _margin-top: 12px;}
+.form-box .form-group-textarea{ _height: 148px;}
+.form-box .form-send{ _height: auto;}
+.footer{ position: relative;}
+.footer-right p{ margin-bottom: 14px; font-size: 13px; line-height: 23px;}
+.footer-right .footer-title{margin-bottom: 15px;}
+.footer-right p i{ font-style: normal; color: white;}
+.footer-right p em{ font-style: normal; font-size: 17px;}
+.bottom-copyright{ text-align: center; border-top:1px solid #7d7d7d; margin-top: 30px; padding-top: 20px;}
+.bottom-copyright p{ line-height: 24px;}
+.bottom-copyright p a{ margin-left: 10px; color: #7f7e7f;}
